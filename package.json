@@ -1,0 +1,19 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeDZveDZE/testProj.git"
+  },
+  "author": "Vadim Khorava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeDZveDZE/testProj/issues"
+  },
+  "homepage": "https://github.com/MeDZveDZE/testProj#readme"
+}
