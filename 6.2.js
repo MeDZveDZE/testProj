@@ -14,3 +14,5 @@ class B extends A {
     );
   }
 }
+
+console.log(B);

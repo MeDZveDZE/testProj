@@ -1,7 +1,7 @@
 //- Ещё в одном файле создать экземпляр класса В и вызвать метод класса A и класса B
 
 const x = new B("Anna", 29, "Engineer", "Minsk");
-x.nameAndAge();
-x.nameAndProfession();
-x.personIsFrom();
-x.fullInfo();
+x.nameAndAge();         //метод класса А: выводит имя и возраст
+x.nameAndProfession();  //метод класса А: выводит имя и профессию
+x.personIsFrom();       //метод расширенного класса B: выводит имя и город
+x.fullInfo();           //метод расширенного класса B: выводит всю информацию по персоне
