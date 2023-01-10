@@ -14,7 +14,7 @@ function longestWord(array) {
   const arrayOfWords = arrayOfStrings.join(" ").split(/[ ,.;:?!()]/); //регекс для разделения строк на массив слов, т.к. одним пробелом или запятой не разделить.
   let longestWordLength = 0;
   for (el of arrayOfWords) {
-    //цикл для определения самого длинного слова
+    //цикл для определения самого длинного слова 
     if (el.length > longestWordLength) {
       longestWordLength = el.length;
     }

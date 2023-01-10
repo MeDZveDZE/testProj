@@ -5,7 +5,7 @@
 //Например,
 //“Гуси” – ['London’, 'Paris’, 'Moscow’]
 //Исходный массив – ['Minsk’, 'Moscow’, 'Berlin’, 'Toronto’, 'Paris’, 'Moscow’]
-//Результат - ['Minsk’, 'Berlin’, 'Toronto’]
+//Результат - ['Minsk’, 'Berlin’, 'Toronto’] 
 
 const origArray = ["Minsk", "Moscow", "Berlin", "Toronto", "Paris", "Moscow"];
 const gusi = ["London", "Paris", "Moscow"];

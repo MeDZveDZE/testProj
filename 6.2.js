@@ -5,7 +5,7 @@ class B extends A {         //расширеный класс
     super(name, age, profession);
     this.city = city;
   }
-  personIsFrom() {          //метод выводит имя и город персоны
+  personIsFrom() {          //метод выводит имя и город персоны 
     console.log(`${this.name} is from ${this.city}`);
   }
   fullInfo() {

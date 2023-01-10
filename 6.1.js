@@ -7,7 +7,7 @@ class A {//класс с 2 методами
     this.age = age;
     this.profession = profession;
   }
-  nameAndAge() {//выводит имя и возраст персоны
+  nameAndAge() {//выводит имя и возраст персоны 
     console.log(
       `Person's name is ${this.name} and they are ${this.age} years old`
     );

@@ -12,7 +12,7 @@ callbackOnly("Max", 29, calledFunction);
 
 
 
-// - Только promises (resolve + reject flow)
+// - Только promises (resolve + reject flow) 
 
 const getPosition = () => {//запрашивает у юзера доступ к геолокации. возвращает ошибку, если юзер отклонил запрос, выводит в консоль сообщение, если успешно разрешил
     const promise = new Promise((resolve, reject) => {

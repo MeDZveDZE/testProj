@@ -7,7 +7,7 @@ let sum = 0;
 let subtr = 0;
 let keys = [];
 
-for (i = 0; i < testArray.length; i++) { //цикл для сложения всех элементов массива
+for (i = 0; i < testArray.length; i++) { //цикл для сложения всех элементов массива 
   sum += testArray[i];
 }
 

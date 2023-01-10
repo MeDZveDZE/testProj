@@ -4,7 +4,7 @@ const salaryPerHour = "asd";
 const workHours = 170;
 
 try {
-  //ловит ошибку если salaryPerHour <=0 или не число. редактировать salaryPerHour вручную перед запуском.
+  //ловит ошибку если salaryPerHour <=0 или не число. редактировать salaryPerHour вручную перед запуском. 
   if (salaryPerHour <= 0 || isNaN(+salaryPerHour)) {
     throw new Error("Error with your salary per hour value! Check your input!");
   } else
