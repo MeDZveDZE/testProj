@@ -1,6 +1,6 @@
 //4.Продемонстрировать работу switch…case
 
-const x = Math.round(Math.random());
+const x = Math.round(Math.random()); //рандомное дробное число от 0 до 1 округляется, если 0 - победа, 1 - поражение.
 
 switch (x) {
   case 0:

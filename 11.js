@@ -7,7 +7,7 @@
 
 const str = "Я люблю Javascript";
 
-function replaceFn(value) {
+function replaceFn(value) {//функция разделяет строку на массив и объединяет её снова, но уже с разделителем "_"
   const changedStr = (value.split(" ").join("_"));
   console.log(changedStr);
 }

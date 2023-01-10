@@ -3,7 +3,7 @@
 const salaryPerHour = 2;
 const workHours = 170;
 
-try {
+try {//ловит ошибку с неверно использованным названием переменной workHours...
   console.log(`Your sallary this month is $${salaryPerHour * workhours}`);
 } catch (error) {
   console.log(error);
